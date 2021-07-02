@@ -20,6 +20,9 @@ zstyle :prompt:pure:git:stash show yes
 
 prompt pure
 
+#history
+SAVEHIST=1000
+HISTFILE=/home/khoya_musafir/.zsh_history
 
 # temprory status bar
 

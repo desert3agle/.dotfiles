@@ -35,10 +35,10 @@ alias gitb="git branch"
 alias gitbd="git branch -d"
 alias gitco="git checkout"
 alias goback="git reset --hard HEAD~1"
-alias gitd='git diff --color'
-alias gitrem='git remote -v'
-
-
+alias gitd="git diff --color"
+alias gitrv="git remote -v"
+alias gitra="git remote add"
+alias gitrset="git remote set-url"
 
 # make a seperate alias file and set up oh my zsh
 

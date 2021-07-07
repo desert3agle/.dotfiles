@@ -24,9 +24,23 @@ alias compile="cd /home/khoya_musafir/dwm && sudo make clean install ; cd /home/
 alias mousefix="sudo rmmod psmouse && sudo modprobe psmouse"
 
 # aliases
-
+alias gitlg="git log --graph --full-history --all --color"
+alias gitls="git log --oneline --color"
+alias gits="git status -s"
+alias gita="git add"
+alias gitcm="git commit -m"
+alias gitcam="git add -A && git commit -m"
+alias gitpush="git push -u origin"
+alias gitb="git branch"
+alias gitbd="git branch -d"
+alias gitco="git checkout"
 alias goback="git reset --hard HEAD~1"
+alias gitd='git diff --color'
+alias gitrem='git remote -v'
 
+
+
+# make a seperate alias file and set up oh my zsh
 
 . ~/z/z.sh
 

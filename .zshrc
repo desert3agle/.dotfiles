@@ -17,8 +17,9 @@ HISTFILE=/home/khoya_musafir/.zsh_history
 
 alias now="date && cat /sys/class/power_supply/BAT0/capacity && cat /sys/class/power_supply/BAT0/status"
 
-alias compile="cd /home/khoya_musafir/dwm && sudo make clean install ; cd /home/khoya_musafir/dmenu && sudo make clean install; cd /home/khoya_musafir/st && sudo make clean install"
+alias mkall="cd /home/khoya_musafir/dwm && sudo make clean install ; cd /home/khoya_musafir/dmenu && sudo make clean install; cd /home/khoya_musafir/st && sudo make clean install"
 
+alias mkone="sudo make clean install"
 
 # mouse fix
 alias mousefix="sudo rmmod psmouse && sudo modprobe psmouse"
@@ -30,7 +31,6 @@ alias gits="git status -s"
 alias gita="git add"
 alias gitcm="git commit -m"
 alias gitcam="git add -A && git commit -m"
-alias gitpush="git push -u origin"
 alias gitb="git branch"
 alias gitbd="git branch -d"
 alias gitco="git checkout"

@@ -50,5 +50,6 @@ fi
 
 # nitrogen --restore &
 wal -R
+dwmblocks &
 setxkbmap -option 'caps:escape'
 exec dwm
